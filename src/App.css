@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.inventoryPic{
+  height: 100px;
+  width: 150px;
+}
+.everything{
+  display: flex;
+  justify-content: space-evenly;
+}
+.holder{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: auto;
+}
+.products{
+  background-color: salmon;
+  width: 45vw;
+  height: 20vh;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.creater{
+  background-color: teal;
+  height: 80vh;
+  width: 45vw;
+  border-radius: 20px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.new{
+  height: 250px;
+  width: 200px;
+}
+.space{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 40vw;
+}
+.addStuff{
+  background-color: salmon ;
+  width: auto;
+  height: 35px;
+  border-radius: 15px;
+  border-color: transparent;
+}
+header{
+  height: 10vh;
+  background-color: rgb(204, 101, 90);
+}
