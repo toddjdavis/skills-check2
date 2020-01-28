@@ -4,11 +4,14 @@ import Products from '../Products/Products'
 class Dashboard extends Component {
     render(){
         console.log(this.props.invt)
-        const inventory = this.props.invt
+        const inventory = this.props.invt.map((el) => {
+            return(
+                <Products mapped={el} deletedFun={this.props.deleteFun}/>
+            )
+        })
         return(
             <div>
-                <Products mapped={inventory} deletedFun={this.props.deleteFun}/>
-                
+                {inventory}
             </div>
         )
     }

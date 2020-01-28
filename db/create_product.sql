@@ -8,4 +8,5 @@ insert into products(
     $3
 );
 
-select * from products;
+select * from products
+order by id;
